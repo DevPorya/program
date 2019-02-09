@@ -1,0 +1,165 @@
+
+.navigation-component{
+    background-color: var(--color-primary);
+    width: 250px;
+    height: 100vh;
+    transition: 2s ease;
+}
+.navigation-component .header .control{
+position: absolute;
+top: 10px;
+left:190px;
+color: var(--color-light);
+padding: 10px;
+cursor: pointer;
+}
+.navigation-component .header {
+    /* position:relative;??????? */
+}
+.navigation-component .header .image img{
+    text-align: center;
+    padding:10px;
+}
+.navigation-component .items{
+   
+}
+.navigation-component-.items .item{
+  
+ 
+}
+.navigation-component .items .item .link{
+    color: var(--color-light);
+    padding:10px;
+    display:block;
+    font-size: 1.2em;
+}
+.navigation-component .items .item .link:hover{
+    background-color: var(--color-secondary);
+}
+
+
+/* four box for header  */
+
+
+.col-7{
+    background-image: url('../../assets/img/7.png');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    margin: 10px;
+    position: relative;
+    bottom:900px;
+  left:350px;
+}
+.col-3{
+    background-image: url('../../assets/img/8.png');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    margin: 10px;
+    position: relative;
+    bottom:900px;
+  left:350px;
+}
+
+
+
+ .box-2{
+    background-image: url('../../assets/img/sshot.png');
+    background-size: cover;
+    background-position: center;
+    
+    height: 70px;
+    margin: 10px;
+    position: relative;
+    bottom:900px;
+ right:-350px;
+}
+.box-1 {
+    background-image: url('../../assets/img/sshot-26.png');
+    background-size: cover;
+    background-position: center;
+ 
+    height: 70px;
+    margin: 10px;
+    position: relative;
+    bottom:900px;
+  left:350px;
+}
+
+.box-3{
+    background-image: url('../../assets/img/3.png');
+    background-size: cover;
+    background-position: center;
+  
+    height: 70px;
+    margin: 10px;
+    position:relative;
+    bottom:900px;
+  left:350px;
+}
+
+.box-4 {
+    background-image: url('../../assets/img/4.png');
+    background-size: cover;
+    background-position: center;
+   
+    height: 70px;
+    margin: 10px;
+    position: relative;
+    bottom:900px;
+  left:350px;
+}
+
+
+.article-right {
+    background-color: var(--color-light);
+    height: 100%;
+    margin: 1px;
+}
+
+
+ul ul{
+  display: none;
+
+}
+ul li:hover > ul {
+  display: block;
+  
+  
+}
+ul:after{
+  position: relative;
+}
+
+/* Animation */
+
+.navigation-component-close{
+    margin-left: -270px;
+}
+
+body {
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+  }
+  #main > article {
+    flex: 1;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+    background: beige;
+  }
+  #main > nav {
+    order: -1;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+  header, footer {
+    background: yellowgreen;
+    height: 20vh;
+  }

@@ -1,0 +1,15 @@
+.header-component {
+    position: relative;
+    background-color: var(--color-light);
+    height: 40px;
+}
+.header-component .control{
+    display: none;
+    position: absolute;
+   left: 0;
+    top: 0;
+    color: var(--color-primary);
+    padding: 10px;
+    cursor: pointer;
+
+}

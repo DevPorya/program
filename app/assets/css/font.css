@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'sans';
+
+    src: url('../font/sans/sans.eot');
+
+    src: url('../font/sans/sans.eot?#iefix') format('embedded-opentype'),
+        url('../font/sans/sans.woff2') format('woff2'),
+        url('../font/sans/sans.woff') format('woff'),
+        url('../font/sans/sans.ttf') format('truetype');
+}
